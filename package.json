@@ -1,0 +1,19 @@
+{
+  "name": "@my-org/node-package-template",
+  "version": "1.0.0",
+  "description": "A package skeleton.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx babel src --out-dir dist",
+    "watch": "npx babel src --watch --out-dir dist",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "jest": "^28.1.0"
+  }
+}
